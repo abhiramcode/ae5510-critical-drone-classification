@@ -1,0 +1,26 @@
+{
+  "features": [
+    "speed",
+    "accel",
+    "heading_rate",
+    "flight_path_angle",
+    "heading_sin",
+    "heading_cos",
+    "dist_to_centroid",
+    "rank_dist_to_centroid",
+    "rel_z",
+    "num_neighbors",
+    "centroid_vel_alignment",
+    "is_isolated",
+    "mean_neighbor_dist",
+    "min_neighbor_dist",
+    "weighted_density",
+    "angular_coverage",
+    "n_within_r15",
+    "n_within_r30",
+    "n_within_r45",
+    "nn_bearing_entropy",
+    "local_density_contrast",
+    "degree_centrality_c"
+  ]
+}

@@ -1,0 +1,412 @@
+{
+  "shape": [
+    1639166,
+    37
+  ],
+  "columns": [
+    "case_id",
+    "num_agents",
+    "n_obstacles",
+    "obstacle_density",
+    "mean_obstacle_size",
+    "clutter_index",
+    "obstacle_clustering",
+    "attrition_rate",
+    "step",
+    "agent_id",
+    "rel_x",
+    "rel_y",
+    "rel_z",
+    "dist_to_centroid",
+    "rank_dist_to_centroid",
+    "dist_to_target",
+    "rank_dist_to_target",
+    "vx",
+    "vy",
+    "vz",
+    "speed",
+    "heading",
+    "flight_path_angle",
+    "accel",
+    "heading_rate",
+    "num_neighbors",
+    "mean_neighbor_dist",
+    "min_neighbor_dist",
+    "weighted_density",
+    "angular_coverage",
+    "criticality_score",
+    "degree_centrality",
+    "closeness_centrality",
+    "betweenness_centrality",
+    "eigenvector_centrality",
+    "is_critical",
+    "was_promoted"
+  ],
+  "memory_mb": 390.1,
+  "duplicate_keys": 0,
+  "nan_cells": 0,
+  "n_scenarios": 100,
+  "step_min": 0,
+  "step_max": 1198,
+  "step_parity": [
+    0,
+    2,
+    4,
+    6,
+    8
+  ],
+  "agents_range": [
+    0,
+    74
+  ],
+  "static_columns_nonconstant": {
+    "num_agents": 0,
+    "n_obstacles": 0,
+    "obstacle_density": 0,
+    "mean_obstacle_size": 0,
+    "clutter_index": 0,
+    "obstacle_clustering": 0,
+    "attrition_rate": 0
+  },
+  "scenario_size_counts": {
+    "18": 12,
+    "24": 13,
+    "30": 15,
+    "37": 8,
+    "45": 9,
+    "52": 9,
+    "60": 10,
+    "68": 9,
+    "75": 15
+  },
+  "scenario_attrition_counts": {
+    "medium": 27,
+    "heavy": 25,
+    "none": 24,
+    "light": 24
+  },
+  "rows_per_scenario": {
+    "min": 3546,
+    "median": 14431.5,
+    "max": 45000,
+    "mean": 16391.66
+  },
+  "steps_per_scenario": {
+    "min": 197,
+    "median": 336.5,
+    "max": 600
+  },
+  "pos_rate_per_scenario": {
+    "min": 0.2777777777777778,
+    "median": 0.38578082946839076,
+    "max": 0.6833174451858913
+  },
+  "scenarios_with_zero_obstacles": 7,
+  "clustering_nonzero_with_zero_obstacles": 7,
+  "label_transition_rows": 85,
+  "label_transition_direction": {
+    "0->1": 85
+  },
+  "agents_with_label_change": 85,
+  "was_promoted_rows": 14482,
+  "was_promoted_agents": 85,
+  "was_promoted_scenarios": 41,
+  "was_promoted_without_is_critical": 0,
+  "promotion_agents_by_attrition": {
+    "heavy": 49,
+    "light": 6,
+    "medium": 30
+  },
+  "promotion_step_stats": {
+    "min": 146,
+    "median": 478.0,
+    "max": 1006
+  },
+  "promotions_per_scenario": {
+    "1": 15,
+    "2": 14,
+    "3": 7,
+    "4": 4,
+    "5": 1
+  },
+  "nonpromoted_agents_with_variable_label": 0,
+  "pos_rate_overall": 0.38937179028847596,
+  "pos_rate_by_attrition": {
+    "heavy": 0.42344214373376177,
+    "light": 0.3651561647811727,
+    "medium": 0.39551032710202744,
+    "none": 0.37794233137276767
+  },
+  "pos_rate_by_size": {
+    "18": 0.398539103246587,
+    "24": 0.4048768901908004,
+    "30": 0.36981559699186156,
+    "37": 0.35787072592015223,
+    "45": 0.4109655912182777,
+    "52": 0.3660320968821506,
+    "60": 0.3927331656689455,
+    "68": 0.38853249081746355,
+    "75": 0.3980858908375753
+  },
+  "max_abs_rel_sum": 1.0629719326971099e-11,
+  "median_abs_rel_sum": 2.913225216616411e-13,
+  "dist_to_centroid_recon_max_err": 0.0,
+  "num_neighbors_recon_max_err": 21,
+  "centrality_recon_max_err": {
+    "degree_centrality": 0.7241379310344828,
+    "closeness_centrality": 0.4797794117647059,
+    "betweenness_centrality": 0.1375768228116443,
+    "eigenvector_centrality": 0.27742630133934953
+  },
+  "centrality_recon_median_err": {
+    "degree_centrality": 0.013701201201201274,
+    "closeness_centrality": 0.010743321718931498,
+    "betweenness_centrality": 0.00034617246649205685,
+    "eigenvector_centrality": 0.15382392539814474
+  },
+  "single_feature_scores": {
+    "criticality_score": {
+      "roc_auc": 0.9984449343486581,
+      "pr_auc": 0.9979048345836649,
+      "point_biserial": 0.9308827285960426
+    },
+    "was_promoted": {
+      "roc_auc": 0.5113451730918378,
+      "pr_auc": 0.40322715575634843,
+      "point_biserial": 0.11823226506124965
+    },
+    "rank_dist_to_centroid": {
+      "roc_auc": 0.21827188744685813,
+      "pr_auc": 0.25916387567985233,
+      "point_biserial": -0.4758745743736336
+    },
+    "rank_dist_to_target": {
+      "roc_auc": 0.31774935114135744,
+      "pr_auc": 0.2842338565785354,
+      "point_biserial": -0.30784974587079184
+    },
+    "weighted_density": {
+      "roc_auc": 0.8013404405930711,
+      "pr_auc": 0.7088085673273455,
+      "point_biserial": 0.45765339180734127
+    },
+    "degree_centrality": {
+      "roc_auc": 0.6484725092322554,
+      "pr_auc": 0.4757197226292021,
+      "point_biserial": 0.2839394321604432
+    }
+  },
+  "criticality_score_t0": {
+    "False": {
+      "min": 0.0029659901144999984,
+      "max": 0.0746879715833017,
+      "mean": 0.022910785654265065,
+      "count": 2791.0
+    },
+    "True": {
+      "min": 0.2910929852743432,
+      "max": 0.9940680197709999,
+      "mean": 0.7225046595679091,
+      "count": 1693.0
+    }
+  },
+  "top_correlated_pairs": [
+    {
+      "a": "degree_centrality",
+      "b": "closeness_centrality",
+      "rho": 0.9934
+    },
+    {
+      "a": "vz",
+      "b": "flight_path_angle",
+      "rho": 0.9874
+    },
+    {
+      "a": "n_obstacles",
+      "b": "clutter_index",
+      "rho": 0.9057
+    },
+    {
+      "a": "mean_neighbor_dist",
+      "b": "weighted_density",
+      "rho": -0.8928
+    },
+    {
+      "a": "min_neighbor_dist",
+      "b": "weighted_density",
+      "rho": -0.8875
+    },
+    {
+      "a": "obstacle_density",
+      "b": "clutter_index",
+      "rho": 0.8692
+    },
+    {
+      "a": "dist_to_centroid",
+      "b": "degree_centrality",
+      "rho": -0.8593
+    },
+    {
+      "a": "dist_to_centroid",
+      "b": "closeness_centrality",
+      "rho": -0.8522
+    },
+    {
+      "a": "mean_neighbor_dist",
+      "b": "min_neighbor_dist",
+      "rho": 0.8223
+    },
+    {
+      "a": "dist_to_centroid",
+      "b": "rank_dist_to_centroid",
+      "rho": 0.8121
+    },
+    {
+      "a": "num_neighbors",
+      "b": "angular_coverage",
+      "rho": 0.7827
+    },
+    {
+      "a": "dist_to_centroid",
+      "b": "weighted_density",
+      "rho": -0.7714
+    },
+    {
+      "a": "dist_to_centroid",
+      "b": "mean_neighbor_dist",
+      "rho": 0.7651
+    },
+    {
+      "a": "rank_dist_to_centroid",
+      "b": "angular_coverage",
+      "rho": -0.7501
+    },
+    {
+      "a": "mean_neighbor_dist",
+      "b": "eigenvector_centrality",
+      "rho": -0.7494
+    }
+  ],
+  "mutual_info_with_label": {
+    "speed": 0.07371266888330918,
+    "dist_to_centroid": 0.10306443101480367,
+    "rank_dist_to_centroid": 0.13988174646805507,
+    "dist_to_target": 0.02551420846739849,
+    "num_neighbors": 0.032628463173085986,
+    "mean_neighbor_dist": 0.1220333189291225,
+    "weighted_density": 0.16302059949900571,
+    "angular_coverage": 0.10868821300153342,
+    "degree_centrality": 0.07668615567180703,
+    "betweenness_centrality": 0.060309608927355374,
+    "criticality_score": 0.6279149900141074,
+    "rel_z": 0.07699871418988313
+  },
+  "agent_id_point_biserial": 0.018618860170284874,
+  "rel_id_point_biserial": 0.007432012363548611,
+  "pos_rate_by_rel_id_decile": {
+    "0": 0.3641,
+    "1": 0.3816,
+    "2": 0.4081,
+    "3": 0.3781,
+    "4": 0.39,
+    "5": 0.4245,
+    "6": 0.3725,
+    "7": 0.3857,
+    "8": 0.3845,
+    "9": 0.3973
+  },
+  "ranges": {
+    "speed": {
+      "min": 0.5,
+      "max": 8.5,
+      "mean": 5.551447251373752,
+      "p01": 2.033897346090082,
+      "p99": 8.5
+    },
+    "accel": {
+      "min": -4.499999999821359,
+      "max": 4.5,
+      "mean": 0.03402641411908713,
+      "p01": -4.359756178963783,
+      "p99": 4.43010298938714
+    },
+    "heading": {
+      "min": -3.1415887661016537,
+      "max": 3.1415857205991475,
+      "mean": 1.0425291725043493,
+      "p01": -3.0675666185140456,
+      "p99": 3.070039802783462
+    },
+    "flight_path_angle": {
+      "min": -0.5235987755982988,
+      "max": 0.5235987755982988,
+      "mean": -0.015214761398197902,
+      "p01": -0.5235987755982988,
+      "p99": 0.5235987755982988
+    },
+    "heading_rate": {
+      "min": -0.6500000000000001,
+      "max": 0.6500000000000001,
+      "mean": -0.0067050017496830825,
+      "p01": -0.6500000000000001,
+      "p99": 0.6500000000000001
+    },
+    "rel_x": {
+      "min": -131.20229021900658,
+      "max": 129.1865614673811,
+      "mean": -1.331645046477921e-17,
+      "p01": -50.45587163284731,
+      "p99": 51.50997056600449
+    },
+    "rel_y": {
+      "min": -144.68590729949258,
+      "max": 118.36543061519623,
+      "mean": -4.705145830888654e-16,
+      "p01": -60.59868904260283,
+      "p99": 46.99773152203991
+    },
+    "rel_z": {
+      "min": -47.17880392993872,
+      "max": 50.4415747734555,
+      "mean": -1.6645563080974013e-17,
+      "p01": -31.669458414699598,
+      "p99": 34.92986291102603
+    },
+    "dist_to_centroid": {
+      "min": 0.044475115989078766,
+      "max": 160.6796242732346,
+      "mean": 29.490753597091754,
+      "p01": 4.511490287877089,
+      "p99": 75.28811062688406
+    },
+    "dist_to_target": {
+      "min": 0.10750863153122214,
+      "max": 230.28466807817819,
+      "mean": 82.55386779488808,
+      "p01": 6.210633570801743,
+      "p99": 174.52466205737517
+    },
+    "num_neighbors": {
+      "min": 0.0,
+      "max": 74.0,
+      "mean": 36.22573796674651,
+      "p01": 6.0,
+      "p99": 68.0
+    },
+    "weighted_density": {
+      "min": 0.0,
+      "max": 38.06501612889407,
+      "mean": 7.239432620333481,
+      "p01": 0.11282984678958896,
+      "p99": 30.980887923301875
+    },
+    "angular_coverage": {
+      "min": 0.0,
+      "max": 0.8958333333333334,
+      "mean": 0.3601226426528288,
+      "p01": 0.08333333333333333,
+      "p99": 0.6875
+    }
+  },
+  "steps_all_even": true
+}

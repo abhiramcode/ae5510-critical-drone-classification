@@ -1,0 +1,54 @@
+{
+  "gat": {
+    "n": 106459,
+    "pr_auc": 0.9878695425298317,
+    "roc_auc": 0.9909352548684995,
+    "f1": 0.9434657346620696,
+    "precision": 0.9474033673227413,
+    "recall": 0.9395606979916279,
+    "mcc": 0.9061480640264925
+  },
+  "lgbm_same_snapshots": {
+    "n": 106459,
+    "pr_auc": 0.976943445394806,
+    "roc_auc": 0.9824696245923968,
+    "f1": 0.9201572518369449,
+    "precision": 0.9156149583197504,
+    "recall": 0.9247448379662292,
+    "mcc": 0.8666466503514235
+  },
+  "n_train_graphs": 8000,
+  "n_test_graphs": 2500,
+  "node_features": [
+    "speed",
+    "accel",
+    "heading_rate",
+    "flight_path_angle",
+    "heading_sin",
+    "heading_cos",
+    "dist_to_centroid",
+    "rank_dist_to_centroid",
+    "rel_z",
+    "dist_to_target",
+    "rank_dist_to_target",
+    "num_neighbors",
+    "neighbor_frac",
+    "mean_neighbor_dist",
+    "min_neighbor_dist",
+    "weighted_density",
+    "angular_coverage",
+    "degree_centrality",
+    "betweenness_centrality",
+    "eigenvector_centrality",
+    "is_isolated"
+  ],
+  "edge_features": [
+    "dist/55",
+    "rel_speed",
+    "closing",
+    "bearing_cos",
+    "bearing_sin",
+    "dheading_cos",
+    "dheading_sin"
+  ]
+}

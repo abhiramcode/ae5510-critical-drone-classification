@@ -1,0 +1,8 @@
+{
+  "in_channels": 22,
+  "hidden_size": 64,
+  "edge_dim": 7,
+  "global_dim": 6,
+  "temporal_hidden": 64,
+  "threshold": 0.48000000000000004
+}

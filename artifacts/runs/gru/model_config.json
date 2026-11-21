@@ -1,0 +1,6 @@
+{
+  "input_size": 22,
+  "hidden_size": 96,
+  "num_layers": 2,
+  "threshold": 0.5900000000000001
+}

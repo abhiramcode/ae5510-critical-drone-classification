@@ -1,0 +1,23 @@
+[project]
+name = "critical-agent-classification"
+version = "0.1.0"
+description = "Target-Agnostic Critical Agent Identification in Autonomous Aerial Swarms"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "lightgbm>=4.5.0",
+    "networkx>=3.3",
+    "numpy>=2.0.0",
+    "pandas>=2.2.0",
+    "pyarrow>=17.0.0",
+    "pyparsing>=3.1.0",
+    "scikit-learn>=1.5.0",
+    "scipy>=1.13.0",
+    "torch>=2.5.0",
+    "torch-geometric>=2.6.0",
+    "tqdm>=4.66.0",
+]
+
+[tool.uv]
+package = false
+cache-dir = ".uv_cache"

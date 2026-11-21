@@ -1,0 +1,7 @@
+{
+  "best_iteration": 850,
+  "train_time_sec": 96.44786262512207,
+  "n_train_samples": 1108335,
+  "n_val_samples": 225298,
+  "n_test_samples": 305016
+}

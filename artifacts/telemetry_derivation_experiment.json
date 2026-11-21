@@ -1,0 +1,20 @@
+{
+  "analytical": {
+    "speed_max_err": 9.5367431640625e-07,
+    "heading_max_err_rad": 2.384185791015625e-07,
+    "flight_path_angle_max_err_rad": 1.1920928955078125e-07
+  },
+  "finite_diff": {
+    "accel_r2": 0.9133628606796265,
+    "accel_pearson": 0.956050455570221,
+    "heading_rate_r2": 0.9905572533607483,
+    "heading_rate_pearson": 0.9952559471130371
+  },
+  "model_parity_lgbm": {
+    "original_pr_auc": 0.9910237096579306,
+    "derived_pr_auc": 0.9904200752582712,
+    "original_f1": 0.9503155489301687,
+    "derived_f1": 0.9477655768922743,
+    "mean_prob_diff": 0.0038284873589873314
+  }
+}

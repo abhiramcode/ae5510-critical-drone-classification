@@ -1,0 +1,35 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# UV Cache
+.uv_cache/
+
+# Large Dataset Files (GitHub 100MB limit; keep metadata)
+dataset/*.csv
+dataset/*.parquet
+*.csv.gz
+
+# LaTeX build artifacts (keep .tex, .bib, .pdf, .cls, .bst)
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

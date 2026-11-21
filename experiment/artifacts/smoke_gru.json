@@ -1,0 +1,46 @@
+{
+  "gru": {
+    "n": 40000,
+    "pr_auc": 0.9876345052045624,
+    "roc_auc": 0.9906501938866016,
+    "f1": 0.9446430236533739,
+    "precision": 0.9453188180404355,
+    "recall": 0.9439681948068083,
+    "mcc": 0.9074053242420819
+  },
+  "lgbm_flattened": {
+    "n": 40000,
+    "pr_auc": 0.9900703401330924,
+    "roc_auc": 0.9925209368660798,
+    "f1": 0.952235835561913,
+    "precision": 0.9533623910336239,
+    "recall": 0.9511119393713505,
+    "mcc": 0.9201320255892285
+  },
+  "W": 8,
+  "features": [
+    "speed",
+    "accel",
+    "heading_rate",
+    "flight_path_angle",
+    "heading_sin",
+    "heading_cos",
+    "dist_to_centroid",
+    "rank_dist_to_centroid",
+    "rel_z",
+    "dist_to_target",
+    "rank_dist_to_target",
+    "num_neighbors",
+    "neighbor_frac",
+    "mean_neighbor_dist",
+    "min_neighbor_dist",
+    "weighted_density",
+    "angular_coverage",
+    "degree_centrality",
+    "betweenness_centrality",
+    "eigenvector_centrality",
+    "is_isolated"
+  ],
+  "n_train": 150000,
+  "n_test": 40000
+}

@@ -1,0 +1,9 @@
+{
+  "in_channels": 22,
+  "hidden_size": 64,
+  "edge_dim": 7,
+  "num_heads": 4,
+  "num_layers": 2,
+  "global_dim": 6,
+  "threshold": 0.68
+}
